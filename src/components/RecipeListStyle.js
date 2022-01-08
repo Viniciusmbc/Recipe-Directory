@@ -1,14 +1,17 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const RecipeListStyles = styled.div`
-   display: grid;
+    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 40px;
    text-align: center;
+   margin-top: 40px;
+   margin-left: 50px;
 `
 
 export const CardStyled = styled.div`
-align-items: center;
+        display: ${props => props.display};
+        align-items: center;
         background: #fff;
         color: #333;
         padding: 20px;

@@ -22,7 +22,7 @@ a {
 export const StyledLink = styled(Link)`
  color: #fff;
  text-decoration: none;
- margin-left: auto;
+ margin-left: 40px;
  padding: 8px;
  border: 1px solid #fff;
  border-radius: 4px; 

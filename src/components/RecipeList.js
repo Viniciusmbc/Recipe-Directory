@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
+import { TitleStyled } from "../pages/search/TitleStyled";
 import { CardStyled, RecipeListStyles, TextoStyled } from "./RecipeListStyle";
 
 export default function RecipeList({recipes}) {
+    
+    if(recipes.length === 0){
+        return <TitleStyled corTexto="red" tamanhoFonte="20px">No recipes to load...</TitleStyled>
+    }
+    
     return (
         <>
              <RecipeListStyles> 
-            {recipes.map(recipe => (
-               
-                       
+            {recipes.map(recipe => (            
                 
                 <CardStyled key={recipe.id}>
                 <h3>{recipe.title}</h3>
@@ -19,7 +23,6 @@ export default function RecipeList({recipes}) {
 
                 </TextoStyled>
                 </CardStyled>
-                
                         
                 
             ))}

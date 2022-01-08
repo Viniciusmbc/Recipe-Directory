@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const RecipeStyled = styled.div`
-max-width: 1200px;
-margin: 40px 40px;
+width: 50%;
+margin: 40px auto;
 text-align: center;
 background: #fff;
 padding: 40px;
@@ -16,14 +16,16 @@ h2{
 
 p{
     margin: 40px auto;
+    text-align: center;
 }
 `
 
 export const RecipeStyledUl = styled.ul`
     display: flex;
     padding: 0;
-    justify-content: center;
+    justify-content: normal;
     margin-top: 0;
+    text-align: center;
 `
 
 export const RecipeStyledLi = styled.li`
