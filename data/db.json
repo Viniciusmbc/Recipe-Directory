@@ -86,6 +86,33 @@
       "method": "bahbah",
       "cookingTime": "3minutes",
       "id": "dGf5Q-b"
+    },
+    {
+      "title": "Titulo da Receita",
+      "ingredients": [
+        "Arroz, feijão, carne, ovo"
+      ],
+      "method": "Cozinhar o feijão na panela de pressão por 30 minutos.",
+      "cookingTime": "45minutes",
+      "id": "f00xR20"
+    },
+    {
+      "title": "Titulo",
+      "ingredients": [
+        "arroz, feijao"
+      ],
+      "method": "cozinhar primeiro o feijao",
+      "cookingTime": "45minutes",
+      "id": "AeTC1sf"
+    },
+    {
+      "title": "titulo",
+      "ingredients": [
+        "ingredientes"
+      ],
+      "method": "fazer isso aquilo...",
+      "cookingTime": "3minutes",
+      "id": "qocNWFp"
     }
   ]
 }

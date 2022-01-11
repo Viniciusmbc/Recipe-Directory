@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { SearchbarStyle, SearchbarInput, SearchbarForm } from "./SearchbarStyle";
+import { SearchbarStyle, SearchbarInput, SearchbarForm } from "./Styles/SearchbarStyle";
 
 export default function Searchbar(){
     

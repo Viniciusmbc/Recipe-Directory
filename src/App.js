@@ -9,13 +9,15 @@ import Recipe from './pages/recipe/Recipe';
 
 import './App.css'
 import GlobalStyle from './globalStyles';
+import ThemeSelector from './components/ThemeSelector';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
+      
       <Navbar/>
+      <ThemeSelector/>
 
       <Routes>
 

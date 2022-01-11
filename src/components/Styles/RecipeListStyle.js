@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const RecipeListStyles = styled.div`
     display: grid;
@@ -34,7 +34,16 @@ export const CardStyled = styled.div`
             font-size: 0.9em;
 
         }
-`
+
+        img {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            filter: invert(60%);
+        }
+    `
+
 export const TextoStyled = styled.div`
         color: #555;
         font-size: 0.7em;
