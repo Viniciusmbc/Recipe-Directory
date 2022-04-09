@@ -19,9 +19,6 @@ export function ThemeProvider({children}){
     mode: 'dark'
     });
 
-
-
-
     const changeColor = (color) =>{
         dispatch({type: 'CHANGE_COLOR', payload: color})
     }
